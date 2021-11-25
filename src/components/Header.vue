@@ -81,7 +81,7 @@ export default {};
   .btn_order {
     font-size: 13px;
     color: white;
-    background-color: $order-btn;
+    background-color: $color-secondary;
   }
   .navbar {
     padding: 0 0 !important;
