@@ -20,6 +20,7 @@ export default {
 <style lang="scss">
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@100;400;600;700&display=swap");
+@import "./assets/scss/commons.scss";
 
 body {
   font-family: "Oswald", sans-serif;

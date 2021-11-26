@@ -1,7 +1,7 @@
 <template>
-  <div class="site_header">
+  <div class="site_header starred_background">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-nav">
+      <div class="container-nav starred_background">
         <div class="navbar-collapse justify-content-center">
           <div class="container-nav-block d-flex justify-content-between">
             <div class="order">
@@ -71,7 +71,6 @@ export default {};
 @import "../assets/scss/variable.scss";
 
 .site_header {
-  background-image: url("../assets/img/banner-starred.png");
   font-size: 20px;
 
   .container-nav-block {
@@ -88,7 +87,6 @@ export default {};
 
     .container-nav {
       width: 100%;
-      background-image: url("../assets/img/banner-starred.png");
       padding-top: 1rem;
       img {
         width: 150px;

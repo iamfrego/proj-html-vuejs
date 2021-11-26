@@ -57,6 +57,7 @@ export default {
   transform: translate(-50%, -50%);
   h3 {
     font-weight: 700;
+    width: 75%;
   }
   p {
     color: gray;
@@ -67,7 +68,6 @@ export default {
 }
 .list {
   .col {
-    margin: auto;
     margin-top: 20px;
     width: fit-content;
   }
