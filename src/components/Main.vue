@@ -7,7 +7,7 @@
     <ImageContainer url="h1-team-" />
     <Type />
     <Menu :pizze="pizze" />
-    <!-- <div class="event"></div> -->
+    <Event />
     <!-- <div class="booking"></div> -->
   </div>
 </template>
@@ -19,6 +19,7 @@ import Offers from "./Offers";
 import DoItYourself from "./DoItYourself";
 import Type from "./Type.vue";
 import Menu from "./Menu.vue";
+import Event from "./Event.vue";
 export default {
   components: {
     ImageContainer,
@@ -27,6 +28,7 @@ export default {
     DoItYourself,
     Type,
     Menu,
+    Event,
   },
   data() {
     return {
