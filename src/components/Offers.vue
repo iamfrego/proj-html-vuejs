@@ -78,6 +78,9 @@ export default {};
   h3 {
     font-weight: 700;
   }
+  p {
+    color: gray;
+  }
   .combo_id {
     color: $color-secondary;
   }

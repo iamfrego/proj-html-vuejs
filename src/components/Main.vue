@@ -6,13 +6,9 @@
     <DoItYourself />
     <ImageContainer url="h1-team-" />
     <Type />
-
-    <!-- <div class="menu">
-      <div class="info"></div>
-      <div class="pizza_carousel"></div>
-    </div>
-    <div class="event"></div>
-    <div class="booking"></div> -->
+    <Menu />
+    <!-- <div class="event"></div> -->
+    <!-- <div class="booking"></div> -->
   </div>
 </template>
 
@@ -22,6 +18,7 @@ import Banner from "./Banner";
 import Offers from "./Offers";
 import DoItYourself from "./DoItYourself";
 import Type from "./Type.vue";
+import Menu from "./Menu.vue";
 export default {
   components: {
     ImageContainer,
@@ -29,6 +26,7 @@ export default {
     Offers,
     DoItYourself,
     Type,
+    Menu,
   },
 };
 </script>

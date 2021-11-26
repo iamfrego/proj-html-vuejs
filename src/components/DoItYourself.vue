@@ -36,9 +36,9 @@ export default {};
       width: 20%;
       margin-left: 15rem;
       p {
-        font-size: 70px;
+        font-size: 69px;
         position: relative;
-        bottom: 2.5rem;
+        bottom: 2.3rem;
       }
     }
   }
