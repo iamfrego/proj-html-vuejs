@@ -6,7 +6,7 @@
     <DoItYourself />
     <ImageContainer url="h1-team-" />
     <Type />
-    <Menu />
+    <Menu :pizze="pizze" />
     <!-- <div class="event"></div> -->
     <!-- <div class="booking"></div> -->
   </div>
@@ -27,6 +27,42 @@ export default {
     DoItYourself,
     Type,
     Menu,
+  },
+  data() {
+    return {
+      pizze: [
+        {
+          img: "h3-product-img-1a-100x100.png",
+          name: "VALDOSTANA",
+          price: "€55",
+        },
+        {
+          img: "h3-product-img-2a-150x150.png",
+          name: "FIORI DI ZUCCA",
+          price: "€50",
+        },
+        {
+          img: "h3-product-img-3a-150x150.png",
+          name: "CAMPAGNOLA",
+          price: "€95",
+        },
+        {
+          img: "h3-product-img-4a-150x150.png",
+          name: "VALDOSTANA",
+          price: "€55",
+        },
+        {
+          img: "h3-product-img-5a-150x150.png",
+          name: "FIORI DI ZUCCA",
+          price: "€50",
+        },
+        {
+          img: "h3-product-img-6a-100x100.png",
+          name: "CAMPAGNOLA",
+          price: "€95",
+        },
+      ],
+    };
   },
 };
 </script>

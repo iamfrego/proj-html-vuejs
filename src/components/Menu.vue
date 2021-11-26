@@ -10,12 +10,42 @@
         provident explicabo.
       </p>
     </div>
-    <div class="pizza_carousel"></div>
+    <div class="pizza_carousel d-flex justify-content-center mt-5">
+      <div class="row row-cols-6">
+        <div class="col" v-for="pizza in pizzaType" :key="pizza.img">
+          <div class="card">
+            <img :src="require('../assets/img/' + pizza.img)" alt="" />
+            <h5 class="mt-4">{{ pizza.name }}</h5>
+            <h5 class="price">{{ pizza.price }}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    pizze: Array,
+  },
+  data() {
+    return {
+      pizzaType: [],
+    };
+  },
+  methods: {
+    pizzaList() {
+      this.pizze.forEach((pizzaType) => {
+        this.pizzaType.push(pizzaType);
+      });
+      console.log(this.pizzaType);
+    },
+  },
+  mounted() {
+    this.pizzaList();
+  },
+};
 </script>
 
 <style lang="scss">
@@ -32,6 +62,25 @@ export default {};
     }
     p {
       color: grey;
+    }
+  }
+}
+.pizza_carousel {
+  .row {
+    flex-wrap: nowrap;
+    .card {
+      border: 0;
+      cursor: pointer;
+      img {
+        width: 300px;
+      }
+      h5 {
+        color: $color-third;
+        text-align: center;
+      }
+      .price {
+        color: $color-secondary;
+      }
     }
   }
 }
