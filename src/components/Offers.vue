@@ -7,7 +7,7 @@
         <img src="../assets/img/h1-img-7n.png" alt="" />
       </div>
       <div class="col position-relative">
-        <div class="container-sm position-absolute">
+        <div class="container_combo position-absolute">
           <h3>SPECIALS*</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
@@ -70,7 +70,7 @@ export default {};
   background-size: cover;
 }
 
-.container-sm {
+.container_combo {
   width: fit-content;
   top: 50%;
   left: 50%;

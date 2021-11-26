@@ -72,14 +72,14 @@ export default {};
 
 .site_header {
   background-image: url("../assets/img/banner-starred.png");
-  font-size: 13px;
+  font-size: 20px;
 
   .container-nav-block {
     width: 500px;
   }
 
   .btn_order {
-    font-size: 13px;
+    font-size: 20px;
     color: white;
     background-color: $color-secondary;
   }
@@ -97,7 +97,7 @@ export default {};
     .nav-item {
       img {
         width: fit-content;
-        height: 13px;
+        height: 17px;
         filter: invert(1);
       }
     }
