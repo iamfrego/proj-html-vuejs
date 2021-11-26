@@ -1,5 +1,5 @@
 <template>
-  <div class="doItYourself">
+  <div class="doItYourself mt-3">
     <div class="container_text">
       <div class="text">
         <p class="text-white">

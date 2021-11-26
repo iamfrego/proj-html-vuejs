@@ -2,6 +2,7 @@
   <div
     class="
       banner
+      mt-3
       d-flex
       justify-content-center
       align-items-center

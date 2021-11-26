@@ -1,5 +1,5 @@
 <template>
-  <div class="offers">
+  <div class="offers mt-3">
     <div class="row row-cols-2">
       <div
         class="col col_image d-flex justify-content-center align-items-center"
