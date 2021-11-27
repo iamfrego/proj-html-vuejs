@@ -7,6 +7,7 @@
         align-items-center
         justify-content-between
         py-5
+        my-3
       "
     >
       <select name="" id="" class="m-4 p-3">

@@ -1,8 +1,8 @@
 <template>
-  <div class="footer starred_background pt_footer_row">
+  <div class="footer starred_background">
     <div class="row row-cols-2">
       <div class="col">
-        <div class="row row-cols-3">
+        <div class="row row-cols-3 pt_footer_row">
           <div class="col ps-5">
             <h3>FIND OUR RESTAURANTS</h3>
             <div
@@ -47,10 +47,21 @@
               </div>
             </div>
           </div>
-          <div class="col"></div>
+          <div class="col d-flex flex-column justify-content-between">
+            <h1 class="text-white">
+              THE DON PEPPE CREW FIRST AND FOREMOST VALUE AN AUTHENTIC, WELL
+              BAKED SLICE PIZZA.
+            </h1>
+            <div class="check d-flex justify-content-end">
+              <img
+                src="https://donpeppe.qodeinteractive.com/wp-content/uploads/2019/10/footer-bottom-img.png"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col"></div>
+      <div class="col footerImage"></div>
     </div>
   </div>
 </template>
@@ -95,5 +106,11 @@ h3,
 }
 .freeday {
   color: $color-secondary;
+}
+
+.footerImage {
+  background-image: url(../assets/img/footer-img-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>
