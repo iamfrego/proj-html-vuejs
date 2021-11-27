@@ -5,7 +5,7 @@
         <div class="navbar-collapse justify-content-center">
           <div class="container-nav-block d-flex justify-content-between">
             <div class="order">
-              <button class="btn btn_order">ORDER ONLINE</button>
+              <button class="btn btn_order text-white">ORDER ONLINE</button>
             </div>
             <ul class="navbar-nav">
               <li class="nav-item">
@@ -79,7 +79,6 @@ export default {};
 
   .btn_order {
     font-size: 20px;
-    color: white;
     background-color: $color-secondary;
   }
   .navbar {

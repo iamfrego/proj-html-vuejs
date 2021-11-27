@@ -8,7 +8,7 @@
     <Type />
     <Menu :pizze="pizze" />
     <Event />
-    <!-- <div class="booking"></div> -->
+    <Booking />
   </div>
 </template>
 
@@ -20,6 +20,7 @@ import DoItYourself from "./DoItYourself";
 import Type from "./Type.vue";
 import Menu from "./Menu.vue";
 import Event from "./Event.vue";
+import Booking from "./Booking.vue";
 export default {
   components: {
     ImageContainer,
@@ -29,6 +30,7 @@ export default {
     Type,
     Menu,
     Event,
+    Booking,
   },
   data() {
     return {

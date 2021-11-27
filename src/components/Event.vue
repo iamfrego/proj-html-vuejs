@@ -1,5 +1,5 @@
 <template>
-  <div class="event">
+  <div class="event mt-5">
     <div class="row row-cols-2">
       <List
         :title="Title"
