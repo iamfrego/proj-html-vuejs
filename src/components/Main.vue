@@ -22,16 +22,6 @@ import Menu from "./Menu.vue";
 import Event from "./Event.vue";
 import Booking from "./Booking.vue";
 export default {
-  components: {
-    ImageContainer,
-    Banner,
-    Offers,
-    DoItYourself,
-    Type,
-    Menu,
-    Event,
-    Booking,
-  },
   data() {
     return {
       pizze: [
@@ -67,6 +57,16 @@ export default {
         },
       ],
     };
+  },
+  components: {
+    ImageContainer,
+    Banner,
+    Offers,
+    DoItYourself,
+    Type,
+    Menu,
+    Event,
+    Booking,
   },
 };
 </script>
