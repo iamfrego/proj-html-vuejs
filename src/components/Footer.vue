@@ -15,26 +15,35 @@
               <p>{{ restaurant.Phone }}</p>
             </div>
           </div>
-          <div class="col">
+          <div class="col d-flex flex-column">
             <div class="worktime">
               <h3>WORKING HOURS</h3>
               <div class="timetables">
                 <div class="pt-3">
-                  <p class="days">MONDAY</p>
+                  <p class="section_title">MONDAY</p>
                   <p class="freeday">{{ freeday }}</p>
                 </div>
                 <div class="pt-3">
-                  <p class="days">TUESDAY UNTIL FRIDAY</p>
+                  <p class="section_title">TUESDAY UNTIL FRIDAY</p>
                   <p class="text-white">{{ weekday }}</p>
                 </div>
                 <div class="pt-3">
-                  <p class="days">SATURDAY</p>
+                  <p class="section_title">SATURDAY</p>
                   <p class="text-white">{{ longday }}</p>
                 </div>
                 <div class="pt-3">
-                  <p class="days">SUNDAY</p>
+                  <p class="section_title">SUNDAY</p>
                   <p class="text-white">{{ weekday }}</p>
                 </div>
+              </div>
+            </div>
+            <div class="social d-flex">
+              <p class="section_title pe-3">FOLLOW US:</p>
+              <div class="social_icon text-white">
+                <i class="fab fa-twitter pe-2"></i>
+                <i class="fab fa-facebook-f pe-2"></i>
+                <i class="fab fa-instagram pe-2"></i>
+                <i class="fab fa-linkedin-in pe-2"></i>
               </div>
             </div>
           </div>
@@ -81,7 +90,7 @@ export default {
 }
 
 h3,
-.days {
+.section_title {
   color: $color-third;
 }
 .freeday {
