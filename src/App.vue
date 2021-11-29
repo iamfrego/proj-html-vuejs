@@ -1,6 +1,16 @@
 <template>
   <body>
-    <Header />
+    <Header
+      :button="button"
+      :link1="link1"
+      :link2="link2"
+      :link3="link3"
+      :link4="link4"
+      :link5="link5"
+      :link6="link6"
+      :link7="link7"
+      :link8="link8"
+    />
     <Main />
     <Footer
       :restaurantsArray="restaurants"
@@ -19,6 +29,15 @@ import Footer from "./components/Footer.vue";
 export default {
   data() {
     return {
+      button: "ORDER ONLINE",
+      link1: "HOME",
+      link2: "PAGES",
+      link3: "MENU",
+      link4: "EVENT",
+      link5: "BLOG",
+      link6: "LANDING",
+      link7: "CART",
+      link8: "SEARCH",
       restaurants: [
         {
           Address: "1614 E.Bell Rd #104",

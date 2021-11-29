@@ -5,19 +5,19 @@
         <div class="navbar-collapse justify-content-center">
           <div class="container-nav-block d-flex justify-content-between">
             <div class="order">
-              <button class="btn btn_order text-white">ORDER ONLINE</button>
+              <button class="btn btn_order text-white">{{ button }}</button>
             </div>
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link text-white pe-3" href="#">
-                  <img src="../assets/svg/svg-0.svg" alt="" /> HOME</a
+                  <img src="../assets/svg/svg-0.svg" alt="" /> {{ link1 }}</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white pe-3" href="#">PAGES</a>
+                <a class="nav-link text-white pe-3" href="#">{{ link2 }}</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white pe-5" href="#">MENU</a>
+                <a class="nav-link text-white pe-5" href="#">{{ link3 }}</a>
               </li>
             </ul>
           </div>
@@ -26,29 +26,29 @@
           <div class="container-nav-block d-flex justify-content-between">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link text-white ps-5 pe-3" href="#">EVENT</a>
+                <a class="nav-link text-white ps-5 pe-3" href="#">{{
+                  link4
+                }}</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white pe-3" href="#">BLOG</a>
+                <a class="nav-link text-white pe-3" href="#">{{ link5 }}</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white pe-3" href="#">LANDING</a>
+                <a class="nav-link text-white pe-3" href="#">{{ link6 }}</a>
               </li>
             </ul>
             <div class="cart_and_search">
               <ul class="navbar-nav">
                 <li class="nav-item">
                   <a class="nav-link text-white pe-3" href="#">
-                    <img
-                      src="../assets/svg/svg-1.svg"
-                      alt=""
-                      class="pe-2"
-                    />CART</a
+                    <img src="../assets/svg/svg-1.svg" alt="" class="pe-2" />{{
+                      link7
+                    }}</a
                   >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-white pe-3" href="#">
-                    <i class="fas fa-search pe-2"></i>SEARCH</a
+                    <i class="fas fa-search pe-2"></i>{{ link8 }}</a
                   >
                 </li>
               </ul>
@@ -64,7 +64,19 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    button: String,
+    link1: String,
+    link2: String,
+    link3: String,
+    link4: String,
+    link5: String,
+    link6: String,
+    link7: String,
+    link8: String,
+  },
+};
 </script>
 
 <style lang="scss">
