@@ -25,15 +25,18 @@ export default {
   props: {
     url: String,
     svgUrl: String,
-    people: Array,
   },
 };
 </script>
 
 <style lang="scss">
+@import "../assets/scss/variable.scss";
+
 .col-3 {
-  background-image: url("../assets/img/hover-background.jpg");
+  position: relative;
+
   .image {
+    background-image: url("../assets/img/hover-background.jpg");
     position: relative;
     &:hover {
       .card_image {

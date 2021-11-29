@@ -4,7 +4,7 @@
     <Banner />
     <Offers />
     <DoItYourself />
-    <ImageContainer url="h1-team-" :people="people" />
+    <ImageContainerPeople url="h1-team-" :people="people" />
     <Type />
     <Menu :pizze="pizze" />
     <Event />
@@ -17,6 +17,7 @@ import ImageContainer from "./ImageContainer";
 import Banner from "./Banner";
 import Offers from "./Offers";
 import DoItYourself from "./DoItYourself";
+import ImageContainerPeople from "./ImageContainerPeople.vue";
 import Type from "./Type.vue";
 import Menu from "./Menu.vue";
 import Event from "./Event.vue";
@@ -69,6 +70,7 @@ export default {
     Banner,
     Offers,
     DoItYourself,
+    ImageContainerPeople,
     Type,
     Menu,
     Event,
