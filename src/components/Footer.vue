@@ -93,7 +93,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "../assets/scss/variable.scss";
 
 .pt_footer_row {
