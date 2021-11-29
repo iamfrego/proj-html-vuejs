@@ -1,10 +1,10 @@
 <template>
   <div class="site_main">
-    <ImageContainer url="h3-img-" />
+    <ImageContainer url="h3-img-" svgUrl="svg-12" />
     <Banner />
     <Offers />
     <DoItYourself />
-    <ImageContainer url="h1-team-" />
+    <ImageContainer url="h1-team-" :people="people" />
     <Type />
     <Menu :pizze="pizze" />
     <Event />
@@ -55,6 +55,12 @@ export default {
           name: "CAMPAGNOLA",
           price: "€95",
         },
+      ],
+      people: [
+        { name: "Er Cannella" },
+        { name: "Canta Gallo" },
+        { name: "Chucky Beta" },
+        { name: "Detective Conan" },
       ],
     };
   },
